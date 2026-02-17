@@ -1,5 +1,5 @@
 
-import { ExperienceItem, EducationItem, ProjectItem, AwardItem } from './types';
+import { ExperienceItem, EducationItem, ProjectItem, AwardItem } from './types.ts';
 
 // The profile image provided in the chat
 export const PROFILE_IMAGE_URL = "./profile.png";

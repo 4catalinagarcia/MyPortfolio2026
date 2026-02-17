@@ -12,7 +12,7 @@ import {
   PROJECTS_DATA, 
   AWARDS_DATA,
   PROFILE_IMAGE_URL
-} from './constants';
+} from './constants.ts';
 
 const Navbar = ({ darkMode, toggleDarkMode }: { darkMode: boolean, toggleDarkMode: () => void }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: { darkMode: boolean, toggleDarkMod
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-3">
             <a href="#home" className="relative group">
-              <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-brand-accent shadow-md transition-transform group-hover:scale-110">
+              <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-brand-accent shadow-md transition-all group-hover:scale-110 group-active:scale-95 ring-2 ring-white/20">
                 <img 
                   src={PROFILE_IMAGE_URL} 
                   alt="Catalina Garcia Headshot" 
