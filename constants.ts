@@ -2,7 +2,7 @@
 import { ExperienceItem, EducationItem, ProjectItem, AwardItem } from './types.ts';
 
 // The profile image provided in the chat
-export const PROFILE_IMAGE_URL = "./profile.png";
+export const PROFILE_IMAGE_URL = "https://media.licdn.com/dms/image/v2/C4D03AQFpBwJynBn6zg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619697162708?e=1772668800&v=beta&t=v3cUAfO9bnK03vxMHcKroE8KYG1axdW_QWAre2kz1iY";
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
